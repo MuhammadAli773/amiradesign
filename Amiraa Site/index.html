@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amiraa Designs – Grace in Every Thread</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="no-scroll">
+
+  <!-- ── SPLASH SCREEN ── -->
+  <div id="splash-screen">
+    <div class="sparkle-bg">
+      <div class="sparkle-dot" style="top: 10%; left: 20%; animation-delay: 0.1s;"></div>
+      <div class="sparkle-dot" style="top: 30%; left: 80%; animation-delay: 0.5s;"></div>
+      <div class="sparkle-dot" style="top: 70%; left: 40%; animation-delay: 1.2s;"></div>
+      <div class="sparkle-dot" style="top: 50%; left: 10%; animation-delay: 0.8s;"></div>
+      <div class="sparkle-dot" style="top: 20%; left: 60%; animation-delay: 1.5s;"></div>
+      <div class="sparkle-dot" style="top: 80%; left: 90%; animation-delay: 0.3s;"></div>
+      <div class="sparkle-dot" style="top: 40%; left: 30%; animation-delay: 2.1s;"></div>
+      <div class="sparkle-dot" style="top: 90%; left: 15%; animation-delay: 0.9s;"></div>
+    </div>
+    <div class="splash-content">
+      <h1 class="splash-logo">Amiraa Designs</h1>
+      <p class="splash-tagline">Grace in Every Thread</p>
+    </div>
+    <div class="lehnga-border">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+        <svg width="200" height="60" viewBox="0 0 200 60" style="opacity: 0.85;">
+          <path d="M0 30 Q 50 0, 100 30 T 200 30" fill="none" stroke="url(#luxeGrad)" stroke-width="1.5" />
+          <defs>
+            <linearGradient id="luxeGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#d4af37" />
+              <stop offset="50%" stop-color="#8B5553" />
+              <stop offset="100%" stop-color="#d4af37" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">A</div>
+      <div class="nav-logo-text">
+        <strong>Amiraa Designs</strong>
+        <span>Fashion Designer</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="contact.html" class="nav-btn-cta">Book Consultation</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMobile()">Home</a>
+    <a href="collections.html" onclick="closeMobile()">Collections</a>
+    <a href="services.html" onclick="closeMobile()">Services</a>
+    <a href="blog.html" onclick="closeMobile()">Blog</a>
+    <a href="about.html" onclick="closeMobile()">About</a>
+    <a href="contact.html" onclick="closeMobile()">Contact</a>
+    <a href="contact.html" class="btn-light" onclick="closeMobile()" style="margin-top: 1rem;">
+      <span class="btn-text">Book Consultation <span class="arrow">→</span></span>
+    </a>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="sparkle-bg">
+      <div class="sparkle-dot" style="top: 15%; left: 10%; animation-delay: 0.2s;"></div>
+      <div class="sparkle-dot" style="top: 45%; left: 85%; animation-delay: 0.6s;"></div>
+      <div class="sparkle-dot" style="top: 75%; left: 20%; animation-delay: 1.4s;"></div>
+      <div class="sparkle-dot" style="top: 25%; left: 70%; animation-delay: 1.8s;"></div>
+      <div class="sparkle-dot" style="top: 85%; left: 80%; animation-delay: 0.4s;"></div>
+    </div>
+    <div class="hero-bg slide-1"></div>
+    <div class="hero-bg slide-2"></div>
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-content">
+      <h1 class="hero-title">Amiraa Designs</h1>
+      <p class="hero-subtitle">✦ GRACE IN EVERY THREAD ✦</p>
+
+      <p class="hero-desc">Where timeless elegance meets contemporary sophistication. Discover collections that
+        celebrate your unique style and grace.</p>
+      <a href="collections.html" class="btn-primary">
+        <span class="btn-text">Explore Collections</span>
+        <div class="sparkle-container">
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+        </div>
+      </a>
+
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PREVIEW SECTIONS (Optional summaries for Home) ── -->
+  <!-- ── COLLECTIONS ── -->
+  <section id="collections">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Our Collections</h2>
+        <div style="display:flex;align-items:center;justify-content:center;gap:15px;margin:1rem 0;">
+          <div style="height:1px;width:40px;background:var(--taupe);opacity:0.5;"></div>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="var(--taupe)"><path d="M12 0l2 8 8 2-8 2-2 8-2-8-8-2 8-2 2-8z"/></svg>
+          <div style="height:1px;width:40px;background:var(--taupe);opacity:0.5;"></div>
+        </div>
+        <p style="max-width: 600px; margin: 0 auto; font-size: 1.1rem; color: var(--taupe); line-height: 1.6;">Explore our carefully curated collections, each designed to celebrate your unique beauty and style.</p>
+      </div>
+
+      <div class="collections-grid">
+        <!-- Bridal -->
+        <a href="collections.html?cat=bridal" class="collection-card reveal" style="text-decoration: none;">
+          <img src="bridal_luxury_blog_1777094747537.png" alt="Bridal Collection" class="card-img" style="width:100%; aspect-ratio:3/4; object-fit:cover;">
+          <div class="card-overlay">
+            <h3>Bridal</h3>
+            <p>Exquisite bridal ensembles for your special day</p>
+            <span class="btn-gold-card">Explore Collection</span>
+          </div>
+        </a>
+
+        <!-- Party Wear -->
+        <a href="collections.html?cat=party" class="collection-card reveal reveal-delay-1" style="text-decoration: none;">
+          <img src="party_wear_trends_blog_1777095380210.png" alt="Party Wear Collection" class="card-img" style="width:100%; aspect-ratio:3/4; object-fit:cover;">
+          <div class="card-overlay">
+            <h3>Party Wear</h3>
+            <p>Elegant evening gowns and cocktail dresses</p>
+            <span class="btn-gold-card">Explore Collection</span>
+          </div>
+        </a>
+
+        <!-- Abaya -->
+        <a href="collections.html?cat=modest" class="collection-card reveal reveal-delay-2" style="text-decoration: none;">
+          <img src="modern_abaya_blog_1777095102340.png" alt="Abaya Collection" class="card-img" style="width:100%; aspect-ratio:3/4; object-fit:cover;">
+          <div class="card-overlay">
+            <h3>Abaya & Niqab</h3>
+            <p>Contemporary modest fashion with grace</p>
+            <span class="btn-gold-card">Explore Collection</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PREVIEW SECTIONS (Optional summaries for Home) ── -->
+  <section id="legacy">
+    <div class="container">
+      <div class="legacy-text reveal">
+        <div class="label">✦ Our Legacy</div>
+        <h3>Every Stitch Tells a Story. Every Design Celebrates You.</h3>
+        <p>Our legacy is built on the belief that every woman deserves to feel beautiful in her own way. It inspires everything we create. From timeless Bridal dresses and elegant Party wear to beautifully crafted Abayas and Niqabs every piece is thoughtfully designed to help you feel confident, graceful and truly yourself.
+          Your special moments and lasting memories inspire everything we create. We are honored to be a part of your journey and grateful to celebrate those moments with you through Amiraa Designs.</p>
+        <a href="about.html" class="link-text">Discover Our Story →</a>
+      </div>
+      <div class="legacy-image reveal reveal-delay-2">
+        <div
+          style="width:100%;aspect-ratio:4/5;background:linear-gradient(145deg,#d4c5b2 0%,#9e8d78 100%);display:flex;align-items:center;justify-content:center;">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="40" r="38" stroke="rgba(255,255,255,0.4)" stroke-width="1" />
+            <text x="40" y="47" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="28"
+              fill="rgba(255,255,255,0.6)" font-weight="300">A</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <div class="sparkle-bg"></div>
+    <div class="container">
+      <h2 class="reveal">Ready to Create Something Unique?</h2>
+      <p class="reveal reveal-delay-1">Our custom design service brings your vision to life. Schedule a consultation
+        with our expert designers today.</p>
+      <a href="contact.html" class="btn-light reveal reveal-delay-2">
+        <span class="btn-text">Book Consultation <span class="arrow">→</span></span>
+        <div class="sparkle-container">
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="nav-logo-icon">A</div>
+            <div class="nav-logo-text">
+              <strong>Amiraa Designs</strong>
+              <span>Fashion Designer</span>
+            </div>
+          </div>
+          <p>Crafting timeless elegance and sophistication in every piece we create.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="collections.html?cat=bridal">Bridal</a></li>
+            <li><a href="collections.html?cat=party">Party Wear</a></li>
+            <li><a href="collections.html?cat=modest">Abaya &amp; Niqab</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Amiraa Designs. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

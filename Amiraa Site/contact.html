@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in touch with Amiraa Designs for bespoke fashion consultations, bridal inquiries, and private appointments. Visit our New York studio today." />
+  <meta name="keywords" content="contact Amiraa Designs, fashion studio New York, bridal appointment, custom dress inquiry, fashion designer contact" />
+  <title>Contact Us – Amiraa Designs | Book Your Private Consultation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav id="navbar" class="scrolled">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">A</div>
+      <div class="nav-logo-text">
+        <strong>Amiraa Designs</strong>
+        <span>Fashion Designer</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="contact.html" class="nav-btn-cta">Book Consultation</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMobile()">Home</a>
+    <a href="collections.html" onclick="closeMobile()">Collections</a>
+    <a href="services.html" onclick="closeMobile()">Services</a>
+    <a href="blog.html" onclick="closeMobile()">Blog</a>
+    <a href="about.html" onclick="closeMobile()">About</a>
+    <a href="contact.html" onclick="closeMobile()">Contact</a>
+    <a href="contact.html" class="btn-light" onclick="closeMobile()" style="margin-top: 1rem;">
+      <span class="btn-text">Book Consultation <span class="arrow">→</span></span>
+    </a>
+  </div>
+
+  <header class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="page-header-content">
+      <h1 class="reveal">Connect With Us</h1>
+      <p class="reveal reveal-delay-1" style="color: var(--sand); letter-spacing: 0.3em; text-transform: uppercase; font-size: 0.8rem;">Let's Create Something Extraordinary</p>
+    </div>
+  </header>
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-container">
+        
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <div class="label">✦ Get In Touch</div>
+          <h2>Our Studio</h2>
+          <p>We invite you to experience the world of Amiraa Designs firsthand. Our New York studio is a sanctuary for those who appreciate fine craftsmanship and personalized service.</p>
+          
+          <div style="margin-top: 3rem;">
+            <div class="contact-item">
+              <span class="icon">📍</span>
+              <div>
+                <h4 style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem; color: var(--taupe);">Atelier Address</h4>
+                <span>123 Fashion Avenue, Floor 12<br>New York, NY 10018</span>
+              </div>
+            </div>
+            
+            <div class="contact-item" style="margin-top: 1.5rem;">
+              <span class="icon">📞</span>
+              <div>
+                <h4 style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem; color: var(--taupe);">Inquiries</h4>
+                <span>+1 (212) 555-8900</span>
+              </div>
+            </div>
+            
+            <div class="contact-item" style="margin-top: 1.5rem;">
+              <span class="icon">✉</span>
+              <div>
+                <h4 style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem; color: var(--taupe);">Email</h4>
+                <span>atelier@amiraadesigns.com</span>
+              </div>
+            </div>
+          </div>
+          
+          <div style="margin-top: 4rem;">
+            <h4 style="font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; color: var(--taupe);">Follow Our Journey</h4>
+            <div class="social-links">
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Pinterest</a>
+              <a href="#" class="social-link">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form reveal reveal-delay-1">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="E.g. Fatima Al-Hassan" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="E.g. fatima@example.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service" name="service" style="width: 100%; padding: 1rem; border: 1px solid rgba(0,0,0,0.1); background: #fcfcfc; font-family: var(--font-body); font-size: 0.95rem; outline:none;">
+                <option value="bridal">Bridal Couture</option>
+                <option value="party">Party Wear</option>
+                <option value="modest">Modest Wear</option>
+                <option value="alterations">Alterations</option>
+                <option value="other">Other Inquiry</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can we help you today?" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="map" style="height: 450px; background: #e5e5e5; position: relative; overflow: hidden;">
+    <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color: #999;">
+      <p style="letter-spacing: 0.2em; text-transform: uppercase; font-size: 0.8rem;">Interactive Studio Map Placeholder</p>
+    </div>
+    <!-- In a real app, you'd embed a Google Maps iframe here -->
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="nav-logo-icon">A</div>
+            <div class="nav-logo-text">
+              <strong>Amiraa Designs</strong>
+              <span>Fashion Designer</span>
+            </div>
+          </div>
+          <p>Crafting timeless elegance and sophistication in every piece we create.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Journal</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <div class="contact-item">
+            <span class="icon">📍</span>
+            <span>123 Fashion Ave, NY</span>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Amiraa Designs. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

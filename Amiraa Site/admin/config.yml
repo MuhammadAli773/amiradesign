@@ -1,0 +1,57 @@
+# Admin panel settings. Change YOUR-GITHUB-USERNAME/YOUR-REPO-NAME below.
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  branch: main
+
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: products
+    label: Collections (Products & Prices)
+    files:
+      - name: products
+        label: All Products
+        file: data/products.json
+        fields:
+          - label: Products
+            name: products
+            widget: list
+            summary: "{{fields.title}} — {{fields.price}}"
+            fields:
+              - { label: Name, name: title, widget: string }
+              - label: Category
+                name: category
+                widget: select
+                options:
+                  - { label: Bridal Couture, value: bridal }
+                  - { label: Party Wear, value: party }
+                  - { label: Abaya & Niqab, value: modest }
+                  - { label: Atelier Bespoke, value: bespoke }
+              - { label: Photo, name: image, widget: image }
+              - { label: Short description, name: description, widget: text }
+              - { label: 'Price (leave empty to show "Price on request")', name: price, widget: string, required: false }
+
+  - name: blog
+    label: Blog Posts
+    files:
+      - name: blog
+        label: All Blog Posts
+        file: data/blog.json
+        fields:
+          - label: Posts
+            name: posts
+            widget: list
+            summary: "{{fields.date}} — {{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - label: Category
+                name: category
+                widget: select
+                options: [Bridal, Trends, Atelier, Modest Wear, Textiles, Styling, Service]
+              - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: Cover photo, name: image, widget: image }
+              - { label: 'Featured post (shown big at the top)', name: featured, widget: boolean, default: false, required: false }
+              - { label: Short summary (shown on the blog page), name: excerpt, widget: text }
+              - { label: Story, name: body, widget: markdown }

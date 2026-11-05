@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the exquisite collections at Amiraa Designs. From luxurious bridal gowns to sophisticated party wear and refined abayas, find your perfect expression of grace." />
+  <meta name="keywords" content="bridal collection, party wear fashion, luxury abayas, designer niqabs, modest fashion collections, Amiraa Designs" />
+  <title>Curated Collections – Amiraa Designs | Bridal, Party & Modest Wear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar" class="scrolled">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">A</div>
+      <div class="nav-logo-text">
+        <strong>Amiraa Designs</strong>
+        <span>Fashion Designer</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collections.html" class="active">Collections</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="contact.html" class="nav-btn-cta">Book Consultation</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="closeMobile()">Home</a>
+    <a href="collections.html" onclick="closeMobile()">Collections</a>
+    <a href="services.html" onclick="closeMobile()">Services</a>
+    <a href="blog.html" onclick="closeMobile()">Blog</a>
+    <a href="about.html" onclick="closeMobile()">About</a>
+    <a href="contact.html" onclick="closeMobile()">Contact</a>
+    <a href="contact.html" class="btn-light" onclick="closeMobile()" style="margin-top: 1rem;">
+      <span class="btn-text">Book Consultation <span class="arrow">→</span></span>
+    </a>
+  </div>
+
+  <!-- ── PAGE HEADER ── -->
+  <header class="page-header">
+    <div class="page-header-bg" style="background-image: url('party_wear_trends_blog_1777095380210.png');"></div>
+    <div class="page-header-content">
+      <h1 class="reveal">Our Curated Collections</h1>
+      <p class="reveal reveal-delay-1" style="color: var(--sand); letter-spacing: 0.3em; text-transform: uppercase; font-size: 0.85rem; font-weight: 500;">Timeless Artistry & Contemporary Elegance</p>
+    </div>
+  </header>
+
+  <!-- ── COLLECTIONS SECTION ── -->
+  <section id="collections-list">
+    <div class="container">
+      
+      <!-- Category Filter Tabs -->
+      <div class="blog-categories reveal" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 3.5rem; flex-wrap: wrap;">
+        <button class="category-tag active" data-filter="all">All Collections</button>
+        <button class="category-tag" data-filter="bridal">Bridal Couture</button>
+        <button class="category-tag" data-filter="party">Party & Evening</button>
+        <button class="category-tag" data-filter="modest">Abaya & Niqab</button>
+        <button class="category-tag" data-filter="bespoke">Atelier Bespoke</button>
+      </div>
+
+      <!-- Collections Grid -->
+      <div class="collections-grid" id="collectionsGrid"><p style="grid-column:1/-1;text-align:center;">Loading collections…</p></div>
+    </div>
+  </section>
+
+  <!-- ── CTA SECTION ── -->
+  <section id="cta">
+    <div class="sparkle-bg"></div>
+    <div class="container">
+      <h2 class="reveal">Schedule a Design Consultation</h2>
+      <p class="reveal reveal-delay-1">Our designers bring your custom couture visions to reality with precision and grace.</p>
+      <a href="contact.html" class="btn-light reveal reveal-delay-2">
+        <span class="btn-text">Book Appointment <span class="arrow">→</span></span>
+        <div class="sparkle-container">
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+          <div class="sparkle"></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="nav-logo-icon">A</div>
+            <div class="nav-logo-text">
+              <strong>Amiraa Designs</strong>
+              <span>Fashion Designer</span>
+            </div>
+          </div>
+          <p>Crafting timeless elegance and sophistication in every piece we create.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="collections.html?cat=bridal">Bridal Couture</a></li>
+            <li><a href="collections.html?cat=party">Party Wear</a></li>
+            <li><a href="collections.html?cat=modest">Abaya & Niqab</a></li>
+            <li><a href="collections.html?cat=bespoke">Atelier Bespoke</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Amiraa Designs. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="content.js"></script>
+</body>
+
+</html>

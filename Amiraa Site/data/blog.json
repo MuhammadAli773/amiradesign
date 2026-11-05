@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "title": "The Evolution of Modern Bridal Luxury",
+      "category": "Bridal",
+      "date": "2024-04-25",
+      "image": "bridal_luxury_blog_1777094747537.png",
+      "featured": true,
+      "excerpt": "This season, we explore the delicate balance between traditional craftsmanship and contemporary silhouettes. Discover how our latest bridal collection redefines elegance for the modern bride who seeks both heritage and innovation.",
+      "body": "This season, we explore the delicate balance between traditional craftsmanship and contemporary silhouettes. Discover how our latest bridal collection redefines elegance for the modern bride who seeks both heritage and innovation."
+    },
+    {
+      "title": "The Beauty of Minimalism",
+      "category": "Modest Wear",
+      "date": "2024-04-18",
+      "image": "modern_abaya_blog_1777095102340.png",
+      "featured": false,
+      "excerpt": "How clean lines and premium fabrics are reshaping the landscape of contemporary modest fashion.",
+      "body": "How clean lines and premium fabrics are reshaping the landscape of contemporary modest fashion."
+    },
+    {
+      "title": "From Sketch to Masterpiece",
+      "category": "Atelier",
+      "date": "2024-04-12",
+      "image": "atelier_studio_blog_1777095239456.png",
+      "featured": false,
+      "excerpt": "A glimpse into our creative process and the meticulous craftsmanship that goes into every garment.",
+      "body": "A glimpse into our creative process and the meticulous craftsmanship that goes into every garment."
+    },
+    {
+      "title": "Glamour Redefined for 2024",
+      "category": "Trends",
+      "date": "2024-04-05",
+      "image": "party_wear_trends_blog_1777095380210.png",
+      "featured": false,
+      "excerpt": "Discover the key trends in evening wear, from bold embellishments to sophisticated draping techniques.",
+      "body": "Discover the key trends in evening wear, from bold embellishments to sophisticated draping techniques."
+    },
+    {
+      "title": "Sourcing the Finest Fabrics",
+      "category": "Textiles",
+      "date": "2024-03-28",
+      "image": "7e6dce16-da3c-404e-a261-4e2a7693d303.jpg",
+      "featured": false,
+      "excerpt": "Behind our commitment to quality: how we select the most exquisite silks and laces from around the globe.",
+      "body": "Behind our commitment to quality: how we select the most exquisite silks and laces from around the globe."
+    },
+    {
+      "title": "Accessorizing Your Bridal Look",
+      "category": "Styling",
+      "date": "2024-03-20",
+      "image": "9bc4c90d-6cbf-4cc2-adee-50dd913dfa18.png",
+      "featured": false,
+      "excerpt": "Expert tips on choosing the right jewelry and veils to complement your bespoke bridal ensemble.",
+      "body": "Expert tips on choosing the right jewelry and veils to complement your bespoke bridal ensemble."
+    },
+    {
+      "title": "The Bespoke Experience",
+      "category": "Service",
+      "date": "2024-03-12",
+      "image": "bridal_luxury_blog_1777094747537.png",
+      "featured": false,
+      "excerpt": "What to expect during your first private consultation at the Amiraa Designs atelier.",
+      "body": "What to expect during your first private consultation at the Amiraa Designs atelier."
+    }
+  ]
+}

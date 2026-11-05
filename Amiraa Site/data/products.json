@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "title": "Royal Zardozi Lehenga",
+      "category": "bridal",
+      "image": "bridal_luxury_blog_1777094747537.png",
+      "description": "Hand-embroidered zardozi and sequins on rich silk velvet.",
+      "price": ""
+    },
+    {
+      "title": "Evening Soirée Gown",
+      "category": "party",
+      "image": "party_wear_trends_blog_1777095380210.png",
+      "description": "Sophisticated silhouettes designed for unforgettable nights.",
+      "price": ""
+    },
+    {
+      "title": "Refined Silk Abaya",
+      "category": "modest",
+      "image": "modern_abaya_blog_1777095102340.png",
+      "description": "Flowing contemporary abayas crafted from premium Mulberry silk.",
+      "price": ""
+    },
+    {
+      "title": "The Atelier Masterpiece",
+      "category": "bespoke",
+      "image": "atelier_studio_blog_1777095239456.png",
+      "description": "Exclusive hand-finished bespoke creations tailored for you.",
+      "price": ""
+    },
+    {
+      "title": "Imperial Crimson Ensemble",
+      "category": "bridal",
+      "image": "7e6dce16-da3c-404e-a261-4e2a7693d303.jpg",
+      "description": "Timeless bridal craftsmanship with heritage gold thread work.",
+      "price": ""
+    },
+    {
+      "title": "Opulent Velvet Anarkali",
+      "category": "party",
+      "image": "1659a417-8caa-42cd-875b-5622e747d33a.jpg",
+      "description": "Luxe velvet finish paired with hand-embroidered borders.",
+      "price": ""
+    },
+    {
+      "title": "Chiffon Layered Niqab Set",
+      "category": "modest",
+      "image": "9bc4c90d-6cbf-4cc2-adee-50dd913dfa18.png",
+      "description": "Ultra-soft, breathable fabrics created for timeless elegance.",
+      "price": ""
+    },
+    {
+      "title": "Custom Bridal Fitting",
+      "category": "bespoke",
+      "image": "atelier_studio_blog_1777095239456.png",
+      "description": "One-on-one personal consultation with designer Amiraa.",
+      "price": ""
+    }
+  ]
+}
